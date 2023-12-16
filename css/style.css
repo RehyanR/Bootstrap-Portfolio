@@ -24,7 +24,8 @@ body {
   text-decoration: underline;
 }
 .page-section{
-  text-align: center;
+  text-align: justify center;
+  padding: 6%;
 }
 .page-section img{
   border-radius: 50%;
@@ -40,6 +41,7 @@ body {
 }
 h1, h2{
   text-decoration: underline;
+  text-align: center;
 }
 .container-fluid img{
     border-radius: 50%;
@@ -59,7 +61,12 @@ h1, h2{
   }
   .btn-primary{
     background-color: black;
+    color: white;
   }
   .btn-primary:hover{
     color: blueviolet;
+    color: black;
+  }
+  .card{
+    align-self: center;
   }
