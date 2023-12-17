@@ -18,10 +18,12 @@ body {
   padding: 6px 20px;
   transition: .5s;
   letter-spacing: 3px;
+  scroll-behavior: smooth;
 }
 .nav-link:hover{
   color: blueviolet;
   text-decoration: underline;
+
 }
 .page-section{
   text-align: justify center;
@@ -72,4 +74,8 @@ h1, h2, h5{
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
+  }
+  id_work{
+    scroll-behavior: smooth;
+
   }
